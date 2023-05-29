@@ -33,4 +33,3 @@ ref.btnCreate.addEventListener("click", () => {
 ref.btnDestroy.addEventListener("click", () => {
   destroyBoxes.call();
 });
-console.log(ref.btnCreate);
