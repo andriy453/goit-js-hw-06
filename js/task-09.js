@@ -7,11 +7,8 @@ function getRandomHexColor() {
 const spanEl = document.querySelector(".color");
 const butoonEl = document.querySelector(".change-color");
 
-butoonEl.addEventListener(
-  "click",
-  e => {
-    let color = getRandomHexColor();
-    document.body.style.backgroundColor = color;
-    spanEl.textContent = color;
-  });
-
+butoonEl.addEventListener("click", (e) => {
+  let color = getRandomHexColor();
+  document.body.style.backgroundColor = color;
+  spanEl.textContent = color;
+});

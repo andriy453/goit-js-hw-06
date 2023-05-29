@@ -6,7 +6,7 @@ console.log(`Number of categories: ${itamsEl.length}`);
 itamsEl.forEach((item) => {
   const titleEl = item.querySelector("h2").textContent;
   const itemCountEL = item.querySelectorAll("li").length;
-    console.log(`
+  console.log(`
 Категорія: ${titleEl}`);
   console.log(`Кількість елементів: ${itemCountEL}`);
 });
